@@ -1,6 +1,9 @@
 #Crack_the_gate_ctf
 - The goal of this challenge was to explore a login page and determine a hidden developer functionality.
 - It also sheds some light on inspecting network requests and how to use fetch() API with special headers.
+---
+
+
 
 
 #Steps Taken
@@ -15,6 +18,11 @@
 - Added the ROT13 decoded header on fetch as a key value pair.
 - Entered this: .then(r => r.text()).then(t => console.log(t)); at the end of the fetch(...)
 - Found the flag
+---
+
+
+
+
 
 #Lessons learned
 - Headers can grant access to a service, just like using the username and password option.
@@ -26,3 +34,15 @@
 - Promise means "waiting for the reply."
 - PromiseState: "fulfilled" means the server has replied.
 - .then(r => r.text()) opens the response and displays the text.
+---
+
+
+
+
+#Flag
+- picoCTF{[REDACTED]}
+
+
+
+
+---
